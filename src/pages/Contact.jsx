@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { useState } from "react";
+import { Mail, Phone, MapPin, Send } from "lucide-react";
 
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);

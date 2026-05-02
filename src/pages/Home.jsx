@@ -11,25 +11,25 @@ const Home = () => {
     {
       id: 1,
       title: "Encounter Service",
-      time: "5:00 PM",
+      time: "5:00 pm",
       desc: "Sunday ",
     },
     {
       id: 2,
       title: "Midweek Service",
-      time: "5:00pm",
+      time: "5:00 pm",
       desc: "Wednesday",
     },
     {
       id: 3,
       title: "Watchers All Night",
-      time: "6:30 PM",
+      time: "9:00 pm",
       desc: "2nd & 4th Friday Every month .",
     },
     {
       id: 4,
       title: "Friday Youth Night",
-      time: "7:00 PM",
+      time: "7:00 pm",
       desc: "A vibrant gathering for teens and young adults.",
     },
   ];
@@ -292,11 +292,10 @@ const Home = () => {
               </h2>
               <div className="space-y-6 text-gray-600 mb-10 text-lg leading-relaxed">
                 <p>
-                  Latterhouse Watchtower Ecclesia has been a
-                  beacon of hope in our city for over a period. We believe
-                  every person has inherent worth and a God given purpose. No
-                  matter where you are in your faith journey, you are welcome
-                  here.
+                  Latterhouse Watchtower Ecclesia has been a beacon of hope in
+                  our city for over a period. We believe every person has
+                  inherent worth and a God given purpose. No matter where you
+                  are in your faith journey, you are welcome here.
                 </p>
                 {/* <p>
                   Our mission is simple: to love God wholeheartedly, love our

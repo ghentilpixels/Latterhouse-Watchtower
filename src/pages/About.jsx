@@ -48,7 +48,9 @@ const About = () => {
             </div>
 
             <div className="mt-2 p-4 bg-blue-50 rounded-2xl ">
-              <h3 className="text-xl font-bold text-blue-900 mb-3">Our Vision:</h3>
+              <h3 className="text-xl font-bold text-blue-900 mb-3">
+                Our Vision:
+              </h3>
               <p>
                 To raise spiritually sensitive watchmen with apostolic
                 authority.
@@ -61,10 +63,8 @@ const About = () => {
               </h3>
               <ol className="text-blue-800 italic text-lg">
                 <li>
-                  - Equip believers 
-                  - Build intercessory base 
-                  - Establish kingdom systems 
-                  - Reveal Christ
+                  - Equip believers - Build intercessory base - Establish
+                  kingdom systems - Reveal Christ
                 </li>
               </ol>
             </div>
@@ -91,7 +91,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-10">
             {team.map((member) => (
               <div
                 key={member.id}
@@ -104,6 +104,7 @@ const About = () => {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
+
                 <div className="p-6 text-center">
                   <h3 className="text-xl font-bold text-slate-900 mb-1">
                     {member.name}

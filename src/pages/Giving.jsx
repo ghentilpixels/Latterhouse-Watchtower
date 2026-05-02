@@ -1,4 +1,4 @@
-import { Heart, Smartphone, Building2 } from 'lucide-react';
+import { Heart, Smartphone, Building2 } from "lucide-react";
 
 const Giving = () => {
   return (
@@ -10,7 +10,8 @@ const Giving = () => {
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
             "Each of you should give what you have decided in your heart to
             give, not reluctantly or under compulsion, for God loves a cheerful
-            giver."<br />  2 Cor 9:7
+            giver."
+            <br /> 2 Cor 9:7
           </p>
         </div>
       </section>
@@ -37,12 +38,12 @@ const Giving = () => {
         </div>
 
         {/* Other Ways to Give */}
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-9xl mx-auto">
           <h3 className="text-3xl font-bold text-slate-900 mb-10 text-center">
             Other Ways to Give
           </h3>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Mobile Money */}
             <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 hover:border-blue-300 transition-colors">
               <div className="flex items-center gap-4 mb-6">
@@ -68,7 +69,7 @@ const Giving = () => {
                 </div>
                 <div className="pt-2 mt-2 border-t border-slate-200">
                   <span className="text-sm text-slate-800 italic block mt-1">
-                    Name: Latterhouse Watchtower Ecclesia
+                    Name: Latterhouse Watchtower Ecclesia lbg
                   </span>
                 </div>
               </div>
@@ -93,14 +94,16 @@ const Giving = () => {
                   <span className="text-slate-500 block text-sm">
                     Bank Name
                   </span>{" "}
-                  <span className="font-bold">National Faith Bank</span>
+                  <span className="font-bold">
+                    United Bank for Africa (UBA)
+                  </span>
                 </p>
                 <p>
                   <span className="text-slate-500 block text-sm">
                     Account Name
                   </span>{" "}
                   <span className="font-bold">
-                    Latterhouse Watchtower Ecclesia Global
+                    Latterhouse Watchtower Ecclesia
                   </span>
                 </p>
                 <p>
@@ -108,12 +111,55 @@ const Giving = () => {
                     Account Number
                   </span>{" "}
                   <span className="font-mono font-bold tracking-wider">
-                    {/* 1234567890 */}
+                    0011529104503
+                  </span>
+                </p>
+                {/* <p>
+                  <span className="text-slate-500 block text-sm">Branch</span>{" "}
+                  <span className="font-bold">City Center Branch</span>
+                </p> */}
+              </div>
+            </div>
+
+            <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 hover:border-blue-300 transition-colors">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="p-3 bg-blue-100 text-blue-700 rounded-xl">
+                  <Building2 className="w-8 h-8" />
+                </div>
+                <h4 className="text-2xl font-bold text-slate-900">
+                  Bank Transfer
+                </h4>
+              </div>
+              <p className="text-slate-600 mb-6">
+                Set up a recurring transfer or send a direct deposit to our main
+                bank account.
+              </p>
+              <div className="space-y-3 bg-slate-50 p-4 rounded-xl border border-slate-100 text-slate-700">
+                <p>
+                  <span className="text-slate-500 block text-sm">
+                    Bank Name
+                  </span>{" "}
+                  <span className="font-bold">Stanbic Bank</span>
+                </p>
+                <p>
+                  <span className="text-slate-500 block text-sm">
+                    Account Name
+                  </span>{" "}
+                  <span className="font-bold">
+                    Latterhouse Watchtower Ecclesia lbg
+                  </span>
+                </p>
+                <p>
+                  <span className="text-slate-500 block text-sm">
+                    Account Number
+                  </span>{" "}
+                  <span className="font-mono font-bold tracking-wider">
+                    9040013113933
                   </span>
                 </p>
                 <p>
                   <span className="text-slate-500 block text-sm">Branch</span>{" "}
-                  <span className="font-bold">City Center Branch</span>
+                  <span className="font-bold">Airport City Branch</span>
                 </p>
               </div>
             </div>

@@ -99,15 +99,10 @@ export const team = [
   {
     id: 2,
     name: "Prophet AE Godwin",
-    role: "Associate Pastor",
+    role: "Lead Pastor",
     image: AEGodwinImg,
   },
-  {
-    id: 3,
-    name: "Mary Johnson",
-    role: "Worship Leader",
-    image: SingerImg,
-  },
+ 
 ];
 
 export const galleryItems = [
